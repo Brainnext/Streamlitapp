@@ -1,10 +1,10 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
 
-df = pd.DataFrame({ 'first' : [1,2,3,4,5] , 
-                    'second' : [4,5,6,3,3], 'third': [4,2,2,4,6], 'fourth': [2,3,0,1,2]})
+user_message = st.text_input("Please Enter Any Number")
 
-df
-
-st.markdown("Thats it for today")
-
+if (user_message)  = 2000:
+  st.markdown("Correct answer") & st.Title("Nice!!!")
+else:
+  st.markdown("Try again!")
+  
