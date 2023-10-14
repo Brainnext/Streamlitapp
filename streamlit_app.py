@@ -5,5 +5,5 @@ import pandas as pd
 st.title("Gba AI")
 st.write("Conventional gba LLM lol. Lets have some fun")
 
-with st.chat_messsage("Gbaman"):
+with st.markdown("Gbaman"):
   st.write("Welcome to gba land, nigga!")
