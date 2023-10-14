@@ -8,7 +8,7 @@ st.write("Conventional gba LLM lol. Lets have some fun")
 with st.markdown("Gbaman"):
   st.write("Welcome to gba land, nigga!")
 
-user_message = st.input("You": "")
+user_message = st.input("You:", "")
 
 if user_message:
   st.markdown(f"You: {user_message}")
