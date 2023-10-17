@@ -9,3 +9,8 @@ st.markdown("Nice to have you here")
 st.subheader("Watch this Karma video by Seyi Vibez")
 st.video("https://youtu.be/dN4QxTcis2w?si=bX-CpK3fh3SjSzmQ")
 st.caption("Karma - Seyi Vibez")
+
+
+st.checkbox("yes")
+st.button("Click Now!")
+st.radio('Pick your gender:', ["Male", "Female"])
