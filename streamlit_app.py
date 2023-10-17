@@ -16,3 +16,6 @@ st.button("Click Now!")
 st.radio('Pick your gender:', ["Male", "Female"])
 st.selectbox('Pick your gender', ['male', 'female'])
 st.multiselect("What country are you from?", ['Nigeria', 'Ghana', 'Togo', 'SA', 'USA'])
+
+st.select_slider('Pick one of slide', ["Red", "Blue", "Purple", "Orange"])
+st.slider('Pick a number', [0,100])
