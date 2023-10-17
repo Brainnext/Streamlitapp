@@ -18,4 +18,4 @@ st.selectbox('Pick your gender', ['male', 'female'])
 st.multiselect("What country are you from?", ['Nigeria', 'Ghana', 'Togo', 'SA', 'USA'])
 
 st.select_slider('Pick one of slide', ["Red", "Blue", "Purple", "Orange"])
-st.slider('Pick a number', [0,100])
+st.slider('Pick a number', 0,100)
