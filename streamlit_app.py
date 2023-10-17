@@ -2,4 +2,4 @@ import pandas as pd
 import streamlit as st
 
 st.title("Welcome to my machine learning")
-st.chat_message("Welcome")
+st.write("Hello, World!")
