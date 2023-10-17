@@ -11,6 +11,8 @@ st.video("https://youtu.be/dN4QxTcis2w?si=bX-CpK3fh3SjSzmQ")
 st.caption("Karma - Seyi Vibez")
 
 
-st.checkbox("yes")
+st.checkbox("yes", "No")
 st.button("Click Now!")
 st.radio('Pick your gender:', ["Male", "Female"])
+st.selectbox('Pick your gender', ['male', 'female'])
+st.multiselect("What country are you from?", ['Nigeria', 'Ghana', 'Togo', 'SA', 'USA'])
